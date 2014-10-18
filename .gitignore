@@ -1,0 +1,11 @@
+*~
+*.o
+*.d
+*.do
+lib/
+bin/
+*.wrl
+*.root
+*.png
+doc/
+*.out

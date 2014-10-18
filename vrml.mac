@@ -1,0 +1,18 @@
+#/run/verbose 2
+/tracking/verbose 0
+
+/vis/open VRML2FILE
+/vis/scene/create
+
+/vis/scene/add/volume
+/vis/sceneHandler/attach
+/vis/viewer/flush
+
+#/vis/scene/endOfEventAction accumulate 1000
+/vis/scene/endOfEventAction refresh
+
+/vis/scene/add/hits
+/tracking/storeTrajectory 1
+
+
+

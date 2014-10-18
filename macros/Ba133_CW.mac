@@ -1,0 +1,54 @@
+# Ba133
+/gps/particle gamma
+/gps/number 1
+/gps/ene/type Arb
+/gps/hist/type arb
+
+/gps/hist/point 0.05315 0.0
+/gps/hist/point 0.05316 0.0160
+/gps/hist/point 0.05317 0.0
+
+/gps/hist/point 0.07961 0.0
+/gps/hist/point 0.07962 0.0196
+/gps/hist/point 0.07963 0.0
+
+/gps/hist/point 0.08099 0.0 
+/gps/hist/point 0.081 0.2498 
+/gps/hist/point 0.08101 0.0
+
+/gps/hist/point 0.16060 0.0
+/gps/hist/point 0.16061 0.0047
+/gps/hist/point 0.16062 0.0
+
+/gps/hist/point 0.22322 0.0
+/gps/hist/point 0.22323 0.0033 
+/gps/hist/point 0.22324 0.0
+
+/gps/hist/point 0.27639 0.0
+/gps/hist/point 0.2764 0.0523
+/gps/hist/point 0.27641 0.0
+
+/gps/hist/point 0.30284 0.0
+/gps/hist/point 0.30285 0.1363
+/gps/hist/point 0.30286 0.0
+
+/gps/hist/point 0.35601 0.0
+/gps/hist/point 0.35602 0.4513
+/gps/hist/point 0.35603 0.0
+
+/gps/hist/point 0.38384 0.0
+/gps/hist/point 0.38385 0.0667
+/gps/hist/point 0.38386 0.0
+/gps/hist/inter Lin
+
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/centre 7.62 8.9 0.0 cm
+/gps/pos/halfx 14.0 mm
+/gps/pos/halfy 14.0 mm
+/gps/direction 0.0 -1.0 0.0
+#/gps/ang/type iso
+#/gps/ang/maxphi 180 deg
+
+/run/beamOn 10000
+

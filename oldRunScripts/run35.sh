@@ -1,0 +1,7 @@
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_35
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_36
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_37
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_38
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_39
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_40
+vetotank mu_straightdown_1c.mac mu10GeVstrdn_41

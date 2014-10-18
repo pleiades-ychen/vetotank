@@ -1,0 +1,16 @@
+# sodium 22 gamma
+/gps/particle gamma
+/gps/number 1
+/gps/energy 1.274 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/centre 0.0 8.9 0.0 cm
+/gps/pos/halfx 14.0 mm
+/gps/pos/halfy 14.0 mm
+/gps/direction 0.0 -1.0 0.0
+#/gps/ang/type iso
+#/gps/ang/maxphi 180 deg
+
+/run/beamOn 10000
+
+

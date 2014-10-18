@@ -1,0 +1,79 @@
+
+This is the 'vetotank' package - ChangeLog
+
+Creation: "2013-05-24"
+
+Updates:
+Yu Chen
+10/17/2014
+Have the nominal spectra of primary emission, primary absorption length,
+   WLS emission, and WLS absorption length in place. The files are listed
+   below:
+   LAB_PPO_Emission.dat  
+   LAB_PPO_ABSLength.dat  
+   (LAB_TMB_PPO_Emission.dat
+   LAB_TMB_PPO_ABSLength.dat)
+   bis-MSB_Emission.dat	
+   bis-MSB_ABSLength.dat
+   The two files for related to TMB will be used later when perform 
+   LAB+30%TMB simulations. 
+
+Updates:
+Yu Chen
+09/17/2014
+Include the steel box;
+Change the size of logical holder and world to debug the overlaps 
+    with steel box, and use the class scint_box in LogicalHolder.cc
+    instead of the Scintillator to extract geometry info;
+Leave the update of WLS ABS and EM in progress.  
+
+Updates:
+Yu Chen
+08/22/2014
+Update the scint ABSLength with the data measured for LAB+PPO+bisMSB mixture;
+Change name "coating" to "teflon" for default reflector, 
+   and make a new one, "lumirror";
+Use real density and chemical formula for lumirror instead of those for teflon;
+
+Yu Chen
+08/06/2014
+Use LUT model for lumirror surface;
+Use measured data of lumirror reflectance;
+Had updated material properties for LAB + PPO + bisMSB liquid scintillator;
+Had used measured primary emission data of the ternary scintillator, w/o WLS;
+Had kept all the other optical properties with the default data.
+
+Yu Chen
+08/04/2014
+Corrected X's of fiber bundle locations
+
+08/01/2014
+Changed batch run mode as with: vetotank myrun.mac myoutput
+Added macros directry, and created Na22g_NE.mac, etc for 9 source locations
+
+Yu Chen
+07/17/2014
+Configuration of 16 fibers;
+8 square 6x6 mm SiPMs
+
+***************************************************
+Yu Chen
+07/16/2014
+Migration to Geant4.10.0.2:
+   * In vetotankPhysics.cc, remove SetModel() method call for optical process;
+   * In vetotankPhysics.cc, substitute header inclusion MuNuclearInteration.hh
+     with MuonNuclearProcess.hh;
+   * In all relevant .cc files, explicitly include headers "G4SystemOfUnits.hh"
+     and "G4PhysicalConstants.hh".
+Building geometry for 1/4-scale prototype (in progress):
+   * Add files prototype.cc &.hh, scint_box.cc & .hh 
+   * Implement major geometry of 1/4-scale box shape,
+   * Have acrylic tank, paint, and scintillator bulk.
+   * Need to specify correct MPT's for every part
+
+***************************************************
+Yu Chen
+Jul 10, 2014 (date of backup copy)
+
+mainly as same as Benton Pahlka's original version,
+with sectorial aligned fiber array (June 2013)
