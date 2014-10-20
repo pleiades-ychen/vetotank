@@ -1,7 +1,7 @@
 *~
 *.o
 *.d
-*.do
+*.so
 lib/
 bin/
 *.wrl
