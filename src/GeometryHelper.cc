@@ -1,3 +1,5 @@
+/// Author: Yu Chen <ychen87@syr.edu>
+/// 
 
 #include "GeometryHelper.hh"
 #include "G4SystemOfUnits.hh"

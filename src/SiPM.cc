@@ -1,4 +1,4 @@
-/// SiPM.hh
+/// SiPM.cc
 /// Author: Yu Chen <ychen87@syr.edu>
 /// Copyright: 2014 SuperCDMS - Syracuse University
 

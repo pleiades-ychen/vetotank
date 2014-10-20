@@ -3,6 +3,9 @@
 /// Copyright: 2008 (C) NEMO3/SuperNEMO - University of Texas at Austin
 /// Copyright: 2011 (C) NEMO3/SuperNEMO - Fermi National Accelerator Lab
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
+///
+/// Yu Chen <ychen87@syr.edu>
+///
 
 /// NOTE: Most of this code is taken from the G4 examples.  B. Pahlka is 
 /// not the official author or owner.  The physics models change from 

@@ -2,6 +2,9 @@
 /// Author: Benton Pahlka <pahlka@physics.utexas.edu>, <pahlka@fnal.gov>
 /// Copyright: 2008 (C) NEMO3/SuperNEMO - University of Texas at Austin
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
+///
+/// Yu Chen <ychen87@syr.edu>
+///
 
 #include "WLSfiber.hh"
 #include "vetotankMaterials.hh"

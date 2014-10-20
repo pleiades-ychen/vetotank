@@ -1,5 +1,6 @@
-/// extrusion.cc
-/// Author: Benton Pahlka <pahlka@fnal.gov>
+/// vetotank.cc
+/// Author: Yu Chen <ychen87@syr.edu>
+///         Benton Pahlka <pahlka@fnal.gov>
 /// Original Author: Ben Loer <bloer@fnal.gov>
 /// Copyright: 2013 (C) Fermi National Accelerator Laboratory
 

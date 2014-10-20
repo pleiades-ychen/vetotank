@@ -1,6 +1,9 @@
 /// vetotankPhysics.hh
 /// Author: Benton Pahlka <pahlka@physics.utexas.edu> , <pahlka@fnal.gov>
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
+/// 
+/// Author: Yu Chen <ychen87@syr.edu>
+///
 
 #ifndef  vetotankPhysics_h
 #define   vetotankPhysics_h  1

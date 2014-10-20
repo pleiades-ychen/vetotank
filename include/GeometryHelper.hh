@@ -1,4 +1,4 @@
-
+/// Author: Yu Chen <ychen87@syr.edu>
 
 #ifndef GeometryHelper_h
 #define GeometryHelper_h

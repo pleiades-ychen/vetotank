@@ -2,9 +2,9 @@
 /// Author: Benton Pahlka <pahlka@physics.utexas.edu>, <pahlka@fnal.gov>
 /// Copyright: 2008 (C) NEMO3/SuperNEMO - University of Texas at Austin
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
-
-/// Added Acrylic, 7/16/2014
+///
 /// Author: Yu Chen <ychen87@syr.edu>
+///
 
 /// NOTE: This is a little buggy with respect to memory allocation.  Can
 /// be improved using std vectors.
