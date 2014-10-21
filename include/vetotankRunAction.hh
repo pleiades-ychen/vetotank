@@ -6,6 +6,7 @@
 #define vetotankRunAction_h 1
 
 #include "G4UserRunAction.hh"
+#include "vetotankRunMessenger.hh"
 #include "globals.hh"
 #include "TROOT.h"
 #include "TTree.h"
@@ -13,6 +14,7 @@
 #include "TFile.h"
 
 class G4Run;
+class vetotankRunMessenger;
 
 class vetotankRunAction : public G4UserRunAction
 {
@@ -45,6 +47,7 @@ class vetotankRunAction : public G4UserRunAction
   TBranch *RunBranch;
   time_t start;
   G4String outfile;
+  vetotankRunMessenger *run_msg;
 };
 
 #endif

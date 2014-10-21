@@ -7,6 +7,7 @@
 ///
 
 #include "vetotankRunAction.hh"
+#include "vetotankRunMessenger.hh"
 #include "Randomize.hh"
 #include <time.h>
 #include "G4Run.hh"
@@ -22,8 +23,12 @@
 #include <fstream>
 #include <iostream>
 
-vetotankRunAction::vetotankRunAction(){}
-vetotankRunAction::~vetotankRunAction(){}
+vetotankRunAction::vetotankRunAction(){
+  run_msg = new vetotankRunMessenger(this);
+}
+vetotankRunAction::~vetotankRunAction(){
+  delete run_msg;
+}
 
 void vetotankRunAction::BeginOfRunAction(const G4Run* aRun){
 

@@ -114,6 +114,7 @@ void vetotankEventAction::EndOfEventAction(const G4Event* evt){
   }
 
   //Write the event statistics to the outfile.root file
+  this->SetOutFileName(ra_in_ea->GetOutFileName());
   TFile f(outfile,"update");
   EventTree->Write();
   //Send the fates to the run tree 

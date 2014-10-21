@@ -17,6 +17,7 @@
 #include "TCanvas.h"
 
 class G4Event;
+class vetotankRunAction;
 
 struct Tally {
   float BirthX;
@@ -91,6 +92,8 @@ public:
   //Metheds for passing output file to user actions
   void SetOutFileName(G4String filename){ outfile = filename; }
   G4String GetOutFileName(){ return outfile; }
+  //
+  void SetRunActionPointer(vetotankRunAction *ra) {ra_in_ea = ra;}
 
 private:
   
@@ -99,7 +102,7 @@ private:
   Tally BranchFiller;
   RunTally Statistics;
   G4String outfile;
-  
+  vetotankRunAction *ra_in_ea; // maybe void *
 };
 
 
