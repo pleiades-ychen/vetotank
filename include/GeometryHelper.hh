@@ -1,4 +1,5 @@
 /// Author: Yu Chen <ychen87@syr.edu>
+/// Copyright: 2014 (C) SuperCDMS - Syracuse University
 
 #ifndef GeometryHelper_h
 #define GeometryHelper_h

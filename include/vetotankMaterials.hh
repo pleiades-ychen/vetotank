@@ -3,7 +3,7 @@
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
 ///
 /// Author: Yu Chen <ychen87@syr.edu>
-/// 
+/// Copyright: 2014 SuperCDMS - Syracuse University
 
 /*This class is used to create a plastic scintillator.
 GetModule() returns the logical volume containing all the components

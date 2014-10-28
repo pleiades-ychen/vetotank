@@ -1,8 +1,10 @@
 /// vetotank.cc
-/// Author: Yu Chen <ychen87@syr.edu>
-///         Benton Pahlka <pahlka@fnal.gov>
+/// Benton Pahlka <pahlka@fnal.gov>
 /// Original Author: Ben Loer <bloer@fnal.gov>
 /// Copyright: 2013 (C) Fermi National Accelerator Laboratory
+///
+/// Author: Yu Chen <ychen87@syr.edu>
+/// Copyright: 2014 SuperCDMS - Syracuse University
 
 #include "G4LogicalSkinSurface.hh"
 #include "G4OpticalSurface.hh"

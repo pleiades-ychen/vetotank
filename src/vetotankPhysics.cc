@@ -5,7 +5,7 @@
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
 ///
 /// Yu Chen <ychen87@syr.edu>
-///
+/// Copyright: 2014 (C) SuperCDMS - Syracuse University
 
 /// NOTE: Most of this code is taken from the G4 examples.  B. Pahlka is 
 /// not the official author or owner.  The physics models change from 

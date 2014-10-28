@@ -1,4 +1,6 @@
+/// vetotankRunMessenger.hh
 /// Author: Yu Chen <ychen87@syr.edu>
+/// Copyright: 2014 SuperCDMS - Syracuse University
 
 #ifndef vetotankRunMessenger_h
 #define vetotankRunMessenger_h 1

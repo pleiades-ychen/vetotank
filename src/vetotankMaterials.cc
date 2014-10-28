@@ -4,7 +4,7 @@
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
 ///
 /// Author: Yu Chen <ychen87@syr.edu>
-///
+/// Copyright: 2014 (C) SuperCDMS - Syracuse University
 
 /// NOTE: This is a little buggy with respect to memory allocation.  Can
 /// be improved using std vectors.

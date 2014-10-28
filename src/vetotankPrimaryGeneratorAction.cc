@@ -4,7 +4,7 @@
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
 ///
 /// Yu Chen <ychen87@syr.edu>
-///
+/// Copyright: 2014 (C) SuperCDMS - Syracuse University
 
 #include "vetotankPrimaryGeneratorAction.hh"
 #include "vetotankEventAction.hh"

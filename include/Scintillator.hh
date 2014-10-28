@@ -1,6 +1,9 @@
 /// Scintillator.hh
 /// Author: Benton Pahlka <pahlka@physics.utexas.edu> , <pahlka@fnal.gov>
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
+///
+/// Author: Yu Chen <ychen87@syr.edu>
+/// Copyright: 2014 (C) SuperCDMS - Syracuse University
 
 #ifndef Scintillator_h
 #define Scintillator_h

@@ -3,7 +3,7 @@
 /// Copyright: 2012 (C) MINOS - Fermi National Accelerator Laboratory
 ///
 /// Author: Yu Chen <ychen87@syr.edu>
-/// 
+/// Copyright: 2014 SuperCDMS - Syracuse University
 
 #ifndef vetotankEventAction_h
 #define vetotankEventAction_h 1
