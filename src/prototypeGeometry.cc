@@ -239,7 +239,7 @@ G4VPhysicalVolume* prototypeGeometry::Construct( ){
   
   std::ifstream ReadPMT;
   
-  G4String PMTfile = "resources/qe_ham_sba43.txt";
+  G4String PMTfile = "resources/pde_hamamatsu_mppc_s12572_100c.dat";
   
   ReadPMT.open(PMTfile);
   if (ReadPMT.is_open()){
